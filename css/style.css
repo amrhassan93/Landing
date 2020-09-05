@@ -1,39 +1,33 @@
-
-header
-{
+header {
     height: 100vh;
     background-image: url(../img/header-bg.jpg);
     background-size: 100% 100%;
 }
-.parent 
-{
+
+.parent {
     height: 100%;
 }
 
-header .container .navbar
-{
+header .container .navbar {
     background-color: transparent !important;
-
 }
 
-.navbar .navbar-brand
-{
-        font-family: 'Kaushan Script', cursive;
-        color:rgba(254, 209, 54, 1);
-        font-size:30px ;
-        font-weight: 500;
+.navbar .navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(254, 209, 54, 1);
+    font-size: 30px;
+    font-weight: 500;
 }
-.navbar .navbar-brand:hover
-{
+
+.navbar .navbar-brand:hover {
     color: rgba(254, 209, 54, 1);
 }
 
-.header .container .navbar .navbar-nav
-{
-    display: flex;  
+.header .container .navbar .navbar-nav {
+    display: flex;
 }
-header .caption 
-{
+
+header .caption {
     text-align: center;
     color: white;
     align-items: center;
@@ -41,19 +35,17 @@ header .caption
 
 
 /* the end of header  */
+
+
 /* the start of Experience Advisors */
 
-
-.advisors .container .crds 
-{
+.advisors .container .crds {
     overflow: hidden;
     position: relative;
-  
 }
 
-.overlay 
-{
-    position: absolute ;
+.overlay {
+    position: absolute;
     top: -100%;
     left: 15px;
     right: 15px;
@@ -65,16 +57,14 @@ header .caption
     justify-content: center;
     align-items: center;
     color: #fff;
-    
 }
-.overlay a
-{
+
+.overlay a {
     text-decoration: none;
     color: rgba(254, 209, 54, 1);
 }
 
-.lay 
-{
+.lay {
     position: absolute;
     background-color: #fff;
     color: sienna;
@@ -84,34 +74,34 @@ header .caption
     transition: all 1s;
     transition-delay: 0.25s;
 }
-.crds:hover  .overlay
-{
-  top: 15px;
-  bottom:15px;
+
+.crds:hover .overlay {
+    top: 15px;
+    bottom: 15px;
 }
-.crds:hover  .lay
-{
- 
-  bottom:-100%;
+
+.crds:hover .lay {
+    bottom: -100%;
+}
 
 
-}
 /* the end of Experience Advisors */
+
+
 /* the start of  Categories */
 
-.Categories 
-{
+.Categories {
     background-color: #efefef;
 }
-.Categories .mini 
-{
+
+.Categories .mini {
     background-image: url(../img/1.jpg);
     background-size: 100% 100%;
     height: 200px;
 }
-.Categories .mini .inside
-{
-    background-color:rgb(60, 8, 250);
+
+.Categories .mini .inside {
+    background-color: rgb(60, 8, 250);
     height: 100%;
     transition: all 1s;
     display: flex;
@@ -120,28 +110,177 @@ header .caption
     justify-content: center;
     color: #fff;
 }
-.Categories .mini:hover .inside
-{
+
+.Categories .mini:hover .inside {
     opacity: .5;
 }
 
+.Categories .mini1 {
+    background-image: url(../img/2\ \(1\).jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.Categories .mini1 .inside1 {
+    background-color: rgb(185, 250, 8);
+    height: 100%;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Categories .mini1:hover .inside1 {
+    opacity: .5;
+}
+
+.Categories .mini2 {
+    background-image: url(../img/3.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.Categories .mini2 .inside2 {
+    background-color: rgb(61, 94, 138);
+    height: 100%;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Categories .mini2:hover .inside2 {
+    opacity: .5;
+}
+
+.Categories .mini3 {
+    background-image: url(../img/4\ \(1\).jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.Categories .mini3 .inside3 {
+    background-color: rgb(61, 138, 128);
+    height: 100%;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Categories .mini3:hover .inside3 {
+    opacity: .5;
+}
+
+.Categories .mini4 {
+    background-image: url(../img/6.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.Categories .mini4 .inside4 {
+    background-color: rgb(241, 69, 233);
+    height: 100%;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Categories .mini4:hover .inside4 {
+    opacity: .5;
+}
+
+.Categories .mini5 {
+    background-image: url(../img/8.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.Categories .mini5 .inside5 {
+    background-color: rgb(204, 87, 132);
+    height: 100%;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Categories .mini5:hover .inside5 {
+    opacity: .5;
+}
+
+.Categories .mini6 {
+    background-image: url(../img/03-thumbnail.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.Categories .mini6 .inside6 {
+    background-color: rgb(179, 243, 245);
+    height: 100%;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Categories .mini6:hover .inside6 {
+    opacity: .5;
+}
+
+.Categories .mini7 {
+    background-image: url(../img/4.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.Categories .mini7 .inside7 {
+    background-color: rgb(138, 61, 125);
+    height: 100%;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.Categories .mini7:hover .inside7 {
+    opacity: .5;
+}
+
+
 /* the end of Categories */
+
+
 /* the start of Thrads */
 
-.threads 
-{
+.threads {
     background-color: efefef;
 }
-.threads .thread 
-{
+
+.threads .thread {
     background-color: fff;
 }
-.threads .thread .pic 
-{
+
+.threads .thread .pic {
     position: relative;
 }
-.threads .thread .iqon
-{
+
+.threads .thread .iqon {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -154,79 +293,89 @@ header .caption
     transition: all 2s;
 }
 
-.threads .thread .pic:hover .iqon
-{
+.threads .thread .pic:hover .iqon {
     opacity: 1;
     background-color: rgba(254, 209, 54, .9);
-
 }
-.threads .thread .caption 
-{
+
+.threads .thread .caption {
     text-align: center;
 }
 
+
 /* the end of threads */
+
+
 /* the start of contact us */
 
-.contactus
-{
+.contactus {
     background-color: #212529;
     background-image: url(../img/map-image.png);
     background-size: cover;
     text-align: center;
     color: #FFf;
 }
-.contactus .contact .form
-{
+
+.contactus .contact .form {
     display: flex;
     flex: wrap;
-
 }
-.contactus .contact .in 
-{
+
+.contactus .contact .in {
     width: 50%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
-.contactus .contact .in input
-{
+
+.contactus .contact .in input {
     margin: 20px 0;
     width: 70%;
     padding: 20px 10px;
     border-radius: 5px;
     border: none;
 }
-.contactus .contact .text
-{
+
+.contactus .contact .text {
     width: 50%;
     margin: 20px 0;
     display: flex;
     align-items: left;
-
 }
-.contactus .contact .text textarea
-{
-    width:80%;
+
+.contactus .contact .text textarea {
+    width: 80%;
     height: 80%;
     border: none;
     border-radius: 5px;
 }
-.contactus .btn
-{
-    width: 20%;
+
+.contactus .btn {
     height: 70px;
     color: #fff;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 21px;
     margin-bottom: 20px;
 }
 
-    /* the end of contact us */
-    /* the start of footer */
-footer .foter
-{
+
+/* the end of contact us */
+
+
+/* the start of footer */
+
+footer .foter {
     text-align: center;
     padding: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 60vh;
+    }
+    .contactus .btn {
+        height: auto;
+        font-weight: 400;
+        font-size: 19px;
+    }
 }
